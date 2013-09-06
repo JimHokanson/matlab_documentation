@@ -19,6 +19,8 @@ http://www.mathworks.com/help/matlab/matlab_env/how-the-matlab-process-uses-loca
 ## Language Settings ##
 
 From: http://www.mathworks.com/matlabcentral/answers/15423
+and  http://undocumentedmatlab.com/blog/undocumented-feature-function/
+
 ````Matlab
 get(0, 'Language');
 
@@ -29,4 +31,6 @@ encoding = Charset.defaultCharset()
 feature('DefaultCharacterSet')
 
 feature('DefaultCharacterSet','UTF8'); %An example setting this value
+
+feature('locale')
 ````
